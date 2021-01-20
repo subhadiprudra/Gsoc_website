@@ -1,0 +1,205 @@
+.s-rules {
+    padding-top: 16.2rem;
+    padding-bottom: 9rem;
+    background-color: #111;
+    color: #010507;
+    position: relative;
+}
+
+.rules-stats {
+    text-align: center;
+}
+
+.stats__col {
+    margin: 5.4rem 0;
+    padding: 0 2rem;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.stats__col:last-child {
+    border-right: none;
+}
+
+.stats__count {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 8.4rem;
+    line-height: 1;
+    color: #111;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.stats h5 {
+    font-family: "montserrat-semibold", sans-serif;
+    margin-top: 1.8rem;
+    color: #000000;
+    font-size: 1.8rem;
+    line-height: 1.333;
+    position: relative;
+}
+
+.rules__line {
+    display: block;
+    width: 2px;
+    height: 10.2rem;
+    background-color: #111;
+    position: absolute;
+    right: 7.2rem;
+    top: 0;
+}
+
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * rules
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+    .rules-desc {
+        font-size: 2.2rem;
+        max-width: 940px;
+    }
+    .rules-stats {
+        padding-top: 3rem;
+        padding-bottom: 3.9rem;
+    }
+    .rules-stats {
+        max-width: 800px;
+    }
+    .stats__col {
+        margin: 1.5rem 0;
+    }
+    .stats__col:nth-child(n) {
+        border: none;
+    }
+    .stats__col:nth-child(2n+1) {
+        border-right: 1px solid rgba(255, 255, 255, 0.25);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .rules-desc {
+        font-size: 2rem;
+        max-width: 600px;
+    }
+    .stats__count {
+        font-size: 8rem;
+    }
+    .stats h5 {
+        margin-top: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .rules__line {
+        right: 5.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .s-rules {
+        padding-top: 12rem;
+    }
+    .rules-desc {
+        font-size: 1.9rem;
+    }
+    .rules-stats {
+        padding-top: 0;
+    }
+    .stats__col {
+        margin: 0;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        position: relative;
+    }
+    .stats__col::after {
+        content: "";
+        display: block;
+        height: 1px;
+        width: 250px;
+        background-color: rgba(255, 255, 255, 0.25);
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: -125px;
+    }
+    .stats__col:last-child::after {
+        display: none;
+    }
+    .stats__col:nth-child(n) {
+        border: none;
+    }
+    .rules__line {
+        height: 7.2rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .rules-desc {
+        font-size: 1.8rem;
+    }
+    .stats__count {
+        font-size: 7.8rem;
+    }
+}
+
+
+.underlined ol 
+{
+counter-reset:li; /* Initiate a counter */
+margin-left:0; /* Remove the default left margin */
+padding-left:0; /* Remove the default left padding */
+}
+
+.underlined	ol > li 
+{
+position:relative; /* Create a positioning context */
+margin:0 0 6px 2em; /* Give each list item a left margin to make room for the numbers */
+padding:4px 8px; /* Add some spacing around the content */
+list-style:none; /* Disable the normal item numbering */
+border-top:2px solid #39b54a;
+background:#111;
+color:#fff;
+
+font-family:"Helvetica Neue", Arial, sans-serif;
+
+}
+
+.underlined ol > li:before 
+{
+content:counter(li); /* Use the counter as content */
+counter-increment:li; /* Increment the counter by 1 */
+/* Position and style the number */
+position:absolute;
+top:-2px;
+left:-2em;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+box-sizing:border-box;
+width:2em;
+/* Some space between the number and the content in browsers that support
+generated content but not positioning it */
+margin-right:8px;
+padding:4px;
+border-top:2px solid #39b54a;
+color:#fff;
+background:#39b54a;
+font-weight:bold;
+font-family:"Helvetica Neue", Arial, sans-serif;
+text-align:center;
+}
+
+.underlined li ol,
+.underlined li ul 
+{
+margin-top:6px;
+}
+
+.underlined ol ol li:last-child 
+{
+margin-bottom:0;
+}
