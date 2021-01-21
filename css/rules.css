@@ -53,6 +53,10 @@
     top: 0;
 }
 
+.rules-desc {
+        font-size: 1.3rem;
+    }
+
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -135,16 +139,25 @@
         border: none;
     }
     .rules__line {
-        height: 7.2rem;
+        height: 1.2rem;
     }
 }
 
 @media only screen and (max-width: 400px) {
     .rules-desc {
-        font-size: 7rem;
+        font-size: 1.3rem;
     }
     .stats__count {
-        font-size: 7rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    .rules-desc {
+        font-size: 1.3rem;
+    }
+    .stats__count {
+        font-size: 1.3rem;
     }
 }
 
