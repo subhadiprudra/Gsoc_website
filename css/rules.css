@@ -2,7 +2,7 @@
     padding-top: 16.2rem;
     padding-bottom: 9rem;
     background-color: #111;
-    color: #010507;
+    color: #fff;
     position: relative;
 }
 
@@ -16,7 +16,7 @@
     position: relative;
     overflow: hidden;
     white-space: nowrap;
-    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    border-right: 1px solid #fff;/*rgba(255, 255, 255, 0.25);*/
 }
 
 .stats__col:last-child {
@@ -25,7 +25,7 @@
 
 .stats__count {
     font-family: "montserrat-bold", sans-serif;
-    font-size: 8.4rem;
+    font-size: 2rem;
     line-height: 1;
     color: #111;
     position: relative;
@@ -38,7 +38,7 @@
     font-family: "montserrat-semibold", sans-serif;
     margin-top: 1.8rem;
     color: #000000;
-    font-size: 1.8rem;
+    font-size: 1rem;
     line-height: 1.333;
     position: relative;
 }
@@ -77,7 +77,7 @@
         border: none;
     }
     .stats__col:nth-child(2n+1) {
-        border-right: 1px solid rgba(255, 255, 255, 0.25);
+        border-right: 1px solid #fff;/*rgba(255, 255, 255, 0.25);*/
     }
 }
 
@@ -87,7 +87,7 @@
         max-width: 600px;
     }
     .stats__count {
-        font-size: 8rem;
+        font-size: 1*.5rem;
     }
     .stats h5 {
         margin-top: 1.2rem;
@@ -105,7 +105,7 @@
         padding-top: 12rem;
     }
     .rules-desc {
-        font-size: 1.9rem;
+        font-size: 1.5rem;
     }
     .rules-stats {
         padding-top: 0;
@@ -121,11 +121,12 @@
         display: block;
         height: 1px;
         width: 250px;
-        background-color: rgba(255, 255, 255, 0.25);
+        background-color: rgba(0, 0, 0, 0.25);
         position: absolute;
         bottom: 0;
         left: 50%;
         margin-left: -125px;
+        color:rgba(0, 0, 0, 0.25);
     }
     .stats__col:last-child::after {
         display: none;
@@ -140,10 +141,10 @@
 
 @media only screen and (max-width: 400px) {
     .rules-desc {
-        font-size: 1.8rem;
+        font-size: 7rem;
     }
     .stats__count {
-        font-size: 7.8rem;
+        font-size: 7rem;
     }
 }
 
