@@ -428,7 +428,7 @@ table {
     font-family: "lora-regular", serif;
 }
 
-th, td {
+th {
     padding: 1.5rem 3rem;
     text-align: left;
     border-bottom: 1px solid #E8E8E8;
@@ -1297,6 +1297,37 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .display-2 {
         font-size: 3rem;
     }
+}
+
+
+.unordered-lists {
+    text-align: left;
+    position: relative;
+    margin-bottom: 3.6rem;
+    max-width: 960px;
+    font-family: "lora-regular", serif;
+    font-size: 2.3rem;
+    
+    
+}
+
+.unordered-lists-center {
+    position: relative;
+    margin-bottom: 3.6rem;
+    max-width: 960px;
+    align: center
+    
+}
+
+.gsocer-list {
+    text-align: center;
+    position: relative;
+    margin-bottom: 3.6rem;
+    max-width: 960px;
+    font-family: "lora-regular", serif;
+    font-size: 2.3rem;
+    
+    
 }
 
 
@@ -2191,6 +2222,41 @@ html.no-csstransitions .home-content__main {
     }
 }
 
+/* ===================================================================
+ * # proposal
+ *
+ * ------------------------------------------------------------------- */
+
+.proposal__buttons { 
+    padding-top: 6rem;
+    text-align: center;
+}
+
+.proposal__buttons .btn {
+     width: 260px;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    margin: 1.5rem 1.5rem 0 0;
+    letter-spacing: .25rem;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.proposal__buttons .btn:last-child {
+    margin-right: 0;
+}
+
+.proposal__buttons .btn:hover, 
+.proposal__buttons .btn:focus {
+    background: #FFFFFF !important;
+    color: #000000;
+}
+
+.badge{
+	background: blue;
+	color:white;
+    font-size: 1.2rem;
+}
 
 
 /* ===================================================================
