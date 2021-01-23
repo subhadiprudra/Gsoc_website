@@ -2907,7 +2907,7 @@ html.no-csstransitions .home-content__main {
     transition: all 0.3s ease-in-out;
     font: 0/0 a;
     text-shadow: none;
-    color: transparent;
+    color: #39b54a;
     z-index: 2;
 }
 
