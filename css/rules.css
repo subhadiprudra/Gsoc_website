@@ -16,7 +16,7 @@
     position: relative;
     overflow: hidden;
     white-space: nowrap;
-    border-right: 1px solid #fff;/*rgba(255, 255, 255, 0.25);*/
+    border-right: 1px solid #fff;   /*rgba(255, 255, 255, 0.25);*/
 }
 
 .stats__col:last-child {
@@ -53,19 +53,13 @@
     top: 0;
 }
 
-.rules-desc {
-        font-size: 1.3rem;
-    }
 
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * rules
- * ------------------------------------------------------------------- */
+
 @media only screen and (max-width: 1200px) {
     .rules-desc {
-        font-size: 2.2rem;
-        max-width: 940px;
+        font-size: 1.6rem;
+        
     }
     .rules-stats {
         padding-top: 3rem;
@@ -87,11 +81,11 @@
 
 @media only screen and (max-width: 800px) {
     .rules-desc {
-        font-size: 2rem;
+        font-size: 1.6rem;
         max-width: 600px;
     }
     .stats__count {
-        font-size: 1*.5rem;
+        font-size: 1.6rem;
     }
     .stats h5 {
         margin-top: 1.2rem;
@@ -109,7 +103,7 @@
         padding-top: 12rem;
     }
     .rules-desc {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
     .rules-stats {
         padding-top: 0;
@@ -145,19 +139,19 @@
 
 @media only screen and (max-width: 400px) {
     .rules-desc {
-        font-size: 1.3rem;
+        font-size: 1.6rem;
     }
     .stats__count {
-        font-size: 1.3rem;
+        font-size: 1.6rem;
     }
 }
 
 @media only screen and (max-width: 200px) {
     .rules-desc {
-        font-size: 1.3rem;
+        font-size: 1.6rem;
     }
     .stats__count {
-        font-size: 1.3rem;
+        font-size: 1.6rem;
     }
 }
 
