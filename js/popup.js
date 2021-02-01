@@ -72,6 +72,53 @@ var showPopUp= function(data){
         modal.style.display = "block";
     }
 
+    if(data=='8'){
+       
+      document.getElementById("title").innerHTML="Selected Participants";
+      document.getElementById("mentors").innerHTML= "Aditya Mitra<br/>Yug Soni<br/>Akshay Kumar Singh  ";
+      modal.style.display = "block";
+    }
 
+    if(data=='9'){
+       
+      document.getElementById("title").innerHTML="Selected Participants";
+      document.getElementById("mentors").innerHTML= "Md Manzer Alam<br/>Mohammad Rafivulla<br/>Ritabrata Das";
+      modal.style.display = "block";
+    }
+
+    if(data=='10'){
+       
+      document.getElementById("title").innerHTML="Selected Participants";
+      document.getElementById("mentors").innerHTML= "Sayantan dhara<br/>Diptangshu dey<br/>Tanushree Bhattacharyya<br/>Rudraditya Jalan";
+      modal.style.display = "block";
+    }
+
+    if(data=='11'){
+       
+      document.getElementById("title").innerHTML="Selected Participants";
+      document.getElementById("mentors").innerHTML= "Apurva Jyoti Paul<br/>Akash Bachhar<br/>Siddharth Tripathi<br/>Rishita Shaw";
+      modal.style.display = "block";
+    }
+
+    if(data=='12'){
+       
+      document.getElementById("title").innerHTML="Selected Participants";
+      document.getElementById("mentors").innerHTML= "Shruti Singh<br/>Ishan Gupta";
+      modal.style.display = "block";
+    }
+
+    if(data=='13'){
+       
+      document.getElementById("title").innerHTML="Selected Participants";
+      document.getElementById("mentors").innerHTML= "Ashesh Saha<br/>Shahil Kumar<br/>Prashant Shukla<br/>Swastik sarkar";
+      modal.style.display = "block";
+    }
+
+    if(data=='14'){
+       
+      document.getElementById("title").innerHTML="Selected Participants";
+      document.getElementById("mentors").innerHTML= "Harsh Jha ";
+      modal.style.display = "block";
+    }
 
 }
