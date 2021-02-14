@@ -1,10 +1,19 @@
 .project-box {
     box-shadow: 0 1rem 3rem rgba(0,0,0,.15);
     border-radius: 25px;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: .1px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
     position: relative;
-    text-align:center;
+    text-align:left;
     background: #fff; 
+    height: 100%;
 }
+
+.project-box p{
+    padding-top: 4rem;
+    font-size : 2rem;
+    font-family: "montserrat-medium", sans-serif;
+}
+
+
